@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background: url(imagens/images3.jpg) center center fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: rgb(255, 0, 0);
+}
+div.conteudo {
+    background-color: rgb(58, 0, 0);
+	box-shadow: 6px 6px 6px rgb(0, 0, 0);
+	text-align: center;
+	border-radius: 10px;
+	border: solid 8px #000000;
+	width: 25%;
+	padding-top: 5px;
+	float: right;
+}
+ul.texte_decoration {
+	text-decoration: none;
+}
