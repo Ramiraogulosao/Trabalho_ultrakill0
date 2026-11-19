@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+body#corpo {
+	background-color: #1a0000;
+	color: white;
+	font-family: 'Rajdhani', Arial, sans-serif;
+}
+header#cabecalho {
+	border-bottom: solid 3px red;
+}
+article#conteudo {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+footer#rodape {
+	border-top: solid 3px red;
+	text-align: center;
+}
+a {
+	color: gold;
+}
+figure.outrasFotos {
+	background-color: #330000;
+	text-align: center;
+	box-shadow: 0px 0px 20px red;
+	border-radius: 40px;
+	width: 95%;
+	display: flex;
+}
+
+figure.bracos {
+	background-color: #330000;
+	text-align: center;
+	box-shadow: 0px 0px 20px red;
+	border-radius: 40px;
+	width: 50%;
+	display: flex;
+}
+
+
+figure.foto1 {
+	background-color: #330000;
+	box-shadow: 6px 6px 6px black;
+	text-align: center;
+	border-radius: 10px;
+	border: solid 5px red;
+	width: 12.5%;
+	padding-top: 5px;
+	float: right;
+	transition: all 1.5s;
+}
+figure.foto1:hover {
+	transform: rotateZ(10deg);
+}
+figure.foto1 img {
+	width: 95%;
+}
+figure.foto1 h4 {
+	margin-top: -4px;
+	margin-bottom: 0px;
+	background-color: red;
+}
+span.texto {
+	text-align: justify;
+	font-size: 16pt;
+	text-indent: 50px;
+}
+
+
+nav#menu h3 {
+	display: none;
+}
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: red;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	transition: background-color 1s, transform 1s;
+}
+nav#menu li:hover {
+	background-color: darkred;
+	transform: rotateZ(-10deg);
+}
+nav#menu a {
+	color: white;
+	text-decoration: none;
+}
+nav#menu a:hover {
+	color: gold;
+	text-decoration: underline;
+}
+
+
+article#conteudo h1 {
+	background-color: darkred;
+	text-shadow: 2px 2px 2px black;
+	font-size: 25pt;
+	text-align: center;
+	transition: all 1s;
+}
+article#conteudo h1:hover {
+	letter-spacing: 20px;
+}
+hgroup.titulos h1 {
+	text-transform: uppercase;
+	font-size: 30pt;
+	letter-spacing: -10px;
+	border-radius: 20px;
+	width: 45%;
+	transition: all 2s;
+}
+hgroup.titulos h1:hover {
+	letter-spacing: 6px;
+	background-color: red;
+	margin-left: 9px;
+	box-shadow: 6px 6px 6px black;
+}
+
+
+header#cabecalho img.icone {
+	position: absolute;
+	top: 70px;
+	right: 80px;
+	width: 60px;
+}
+
+table.tabela {
+	border: solid 2px red;
+	border-radius: 20px;
+	background-color: #330000;
+	text-align: center;
+	width: 100%;
+}
+.tabela th {
+	background-color: darkred;
+}
+.tabela td {
+	border: solid 1px gray;
+	text-align: left;
+}
+
+
+ul.inimigos {
+	font-size: 15pt;
+}
+ul.inimigos li {
+	margin-bottom: 8px;
+}
+
+
+section.duvidas {
+	border: solid 3px red;
+	padding: 10px;
+}
+details.pergunta {
+	margin-bottom: 8px;
+}
+summary.pergunta1 {
+	background-color: darkred;
+	padding: 8px;
+	cursor: pointer;
+}
+img.inimigos {
+	border-radius: 20px;
+}
